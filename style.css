@@ -1,3 +1,44 @@
 body {
-  background-color: red;
+  background-image: url("Evil.png");
+  background-repeat: repeat;
+  cursor: url("EvilCursor.cur"), auto;
+}
+
+p h1 h3 {
+  font-family:'Times New Roman', Times, serif;
+}
+
+ul {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.headbox {
+  background-color: wheat;
+  border: black solid 4px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 4px 4px 8px black;
+}
+
+.newsbox {
+  background-color: brown;
+  border: black solid 4px;
+  padding: 10px;
+  box-shadow: 4px 4px 8px black;
+}
+
+li {
+  text-align: left;
+}
+
+a {
+  cursor: url("Mischief.jpg"), auto;
+}
+
+table {
+  background-color: wheat;
+  border: black solid 4px;
+  text-align: left;
+  border-collapse: collapse;
 }
